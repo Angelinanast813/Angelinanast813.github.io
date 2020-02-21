@@ -32,16 +32,16 @@
                 <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
                 elit. Aenean euismod bibendum laoreet. Prain gravida dolor sit
                 amet lacus accumsan et viverra justo commodo</p>
-                <button class="download">Download</button>
+                <a href="#"><button class="download">Download</button></a>
             </div>
             <form action="" class="trial">
                 <p class="title-trial">Try Your <span class="free">free</span> Trial Today</p>
                 <div class="inputs">
-                    <input type="text" value="Name" class="input">
-                    <input type="email" value="Email" class="input">
-                    <input type="text" value="Password" class="input">
+                    <input type="text" value="Name" class="input" id="inp1" onfocus="inputFocus('inp1')" onblur="inputBlur('inp1', 'Name')">
+                    <input type="email" value="Email" class="input" id="inp2" onfocus="inputFocus('inp2')" onblur="inputBlur('inp2', 'Email')">
+                    <input type="text" value="Password" class="input" id="inp3" onfocus="inputFocus('inp3')" onblur="inputBlur('inp3', 'Password')">
                 </div>
-                <button class="get-started" type="submit">Get Started</button>
+                <a href="#"><button class="get-started" type="submit">Get Started</button></a>
             </form>
         </div>
     </div>
@@ -61,14 +61,14 @@
             </div>
             <div class="text">
                 <p class="title mrg1">Tabs with soft transitioning effect.</p>
-                <p class="content mrg2">Lorem ipsum dolor sit amet, consectetur
+                <p class="content mrg2" id="txt1">Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Aenean euismod bibendum laoreet.
                     Proin gravida dolor sit amet lacus accumsan et viverra
                     justo commodo. Proin sodales pulvinar tempor. Cum
                     sociis natoque penatibus et magnis dis parturient montes.</p>
-                <p class="content mrg3">Lorem ipsum dolor sit amet, consectetur
+                <p class="content mrg3" id="txt2">Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Aenean euismod bibendum laoreet.</p>
-                <button class="download-send">Download</button>
+                <a href="#"><button class="download-send">Download</button></a>
             </div>
             <div class="image">
                 <img src="src/images/image_right_u255.png">
@@ -88,7 +88,7 @@
                     Proin gravida dolor sit amet lacus accumsan et viverra
                     justo commodo.</p>
                 <div class="uploading">
-                    <img src="src/images/upload.png">
+                    <a href="#"><img src="src/images/upload.png"></a>
                     <div>
                         <p class="list-title">Title</p>
                         <p class="content">Lorem ipsum dolor sit amet, consectetur
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div class="downloading">
-                    <img src="src/images/download.png">
+                    <a href="#"><img src="src/images/download.png"></a>
                     <div>
                         <p class="list-title">Title</p>
                         <p class="content">Lorem ipsum dolor sit amet, consectetur
@@ -133,21 +133,21 @@
             <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <div class="tips">
                 <div>
-                    <img src="src/images/idea.png">
+                    <a href="#"><img src="src/images/idea.png"></a>
                     <p class="title mrg30">Thoughtful Design</p>
                     <p class="content">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Aenean euismod bibendum laoreet.
                         Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                 </div>
                 <div>
-                    <img src="src/images/keyboarg.png">
+                    <a href="#"><img src="src/images/keyboarg.png"></a>
                     <p class="title mrg30">Well Crafted</p>
                     <p class="content">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Aenean euismod bibendum laoreet.
                         Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                 </div>
                 <div>
-                    <img src="src/images/lightning.png">
+                    <a href="#"><img src="src/images/lightning.png"></a>
                     <p class="title mrg30">Easy to Customize</p>
                     <p class="content">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Aenean euismod bibendum laoreet.
@@ -163,11 +163,11 @@
             <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <div class="grades">
                 <div class="down">
-                    <p class="ttl" id="ttl1">Basic</p>
+                    <a href="#"><p class="ttl" id="ttl1">Basic</p>
                     <div class="price" id="price1">
                         <p class="value"><span class="dollar">$</span>0</p>
                         <p class="expl">Free for Life</p>
-                    </div>
+                    </div></a>
                     <ul>
                         <li>1 gb of space</li>
                         <li>10 gb of bandwidth</li>
@@ -178,11 +178,11 @@
                     </ul>
                 </div>
                 <div>
-                    <p class="ttl" id="ttl2">Professional</p>
+                    <a href="#"><p class="ttl" id="ttl2">Professional</p>
                     <div class="price" id="price2">
                         <p class="value"><span class="dollar">$</span>19</p>
                         <p class="expl">Monthly Payment</p>
-                    </div>
+                    </div></a>
                     <p class="popular" id="popular">our most popular</p>
                     <ul>
                         <li>5 gb of space</li>
@@ -194,11 +194,11 @@
                     </ul>
                 </div>
                 <div class="down">
-                    <p class="ttl"  id="ttl3">Enterprise</p>
+                    <a href="#"><p class="ttl"  id="ttl3">Enterprise</p>
                     <div class="price" id="price3">
                         <p class="value"><span class="dollar">$</span>70</p>
                         <p class="expl">Monthly Payment</p>
-                    </div>
+                    </div></a>
                     <ul>
                         <li>unlimited space</li>
                         <li>unlimited bandwidth</li>
@@ -268,7 +268,7 @@
             <div class="line line-cntr line-white"></div>
             <p class="content">Use the sections you need, remove the ones you don't.
                 Create gorgeous prototypes faster than ever!</p>
-            <button class="download btn-cntr">Download</button>
+            <a href="#"><button class="download btn-cntr">Download</button></a>
         </div>
     </div>
     <div class="contact" id="contact">
@@ -278,25 +278,25 @@
             <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <div class="inputs">
                 <div class="left-inputs">
-                    <input type="text" value="Name" class="input contact-input">
-                    <input type="text" value="Email" class="input contact-input">
-                    <input type="text" value="Subject" class="input contact-input">
+                    <input type="text" value="Name" class="input contact-input" id="inp4" onfocus="inputFocus('inp4')" onblur="inputBlur('inp4', 'Name')">
+                    <input type="text" value="Email" class="input contact-input" id="inp5" onfocus="inputFocus('inp5')" onblur="inputBlur('inp5', 'Email')">
+                    <input type="text" value="Subject" class="input contact-input" id="inp6" onfocus="inputFocus('inp6')" onblur="inputBlur('inp6', 'Subject')">
                 </div>
                 <div class="right-inputs">
-                    <textarea class="input message-input">Message</textarea>
+                    <textarea class="input message-input" id="inp7" onfocus="inputFocus('inp7')" onblur="inputBlur('inp7', 'Message')">Message</textarea>
                 </div>
             </div>
-            <button class="download-send">Send Message</button>
+            <a href="#"><button class="download-send">Send Message</button></a>
         </div>
     </div>
 
 
 </main>
 <footer>
-    <img src="src/images/Social-Media-Icons.png">
+    <a href="#"><img src="src/images/Social-Media-Icons.png"></a>
     <p class="copyright">&#169; 2015 Axure Themes</p>
 </footer>
-
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, blanditiis debitis esse facere nemo non perspiciatis recusandae reprehenderit sit voluptatem?
 <script src="build/js/script.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@ const cssFiles = [
 ];
 
 const jsFiles = [
-    './src/js/script.js'
+    './src/js/script.js',
 ];
 
 function styles() {
@@ -30,9 +30,9 @@ function styles() {
 function scripts(){
     return gulp.src(jsFiles)
         .pipe(concat('script.js'))
-        .pipe(uglify({
-            toplevel: true
-        }))
+        // .pipe(uglify({
+        //     toplevel: true
+        // }))
         .pipe(gulp.dest('./build/js'))
         .pipe(browserSync.stream());
 }
